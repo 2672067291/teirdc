@@ -30,9 +30,9 @@ function consoleOpen() {
         console_content.html("<div id=\"inputline\">root:/ # <span id=\"theinput\"></span><span id=\"prompt\">_</span></div>");
     }
     inputline.show();
-    consoleWriteLn("MeowOS");
+    consoleWriteLn("Meow OS");
     consoleWriteLn("Version 1.0.1 [Build 2020]");
-    consoleWriteLn("Copyright (C) 2014-2020 MeowCat Studio All Rights Reserved.");
+    consoleWriteLn("Copyright (C) 2013-2020 MeowCat Studio All Rights Reserved.");
     consoleWriteLn("For A Command List, type \"help\".");
     consoleWriteLn();
     consoleWriteLn("Resuming work from last segmentation fault...");
