@@ -189,7 +189,7 @@ function consoleEnter(line) {
                     consoleActive = false;
                     consoleWriteLn("arrive> Submitting...");
                     $.ajax({
-                        url: "http://api.meowcat.store/submit-score/submit.php",
+                        url: "https://api.meowcat.store/submit-score/submit.php",
                         type: "POST",
                         data: {
                             name: cmd[1],
